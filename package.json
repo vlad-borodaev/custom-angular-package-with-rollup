@@ -1,0 +1,47 @@
+{
+  "name": "custom-angular-package-with-rollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "style": "lib/cjs/styles.css",
+  "types": "lib/index.d.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "classnames": "2.3.1",
+    "rxjs-es": "^5.0.0-beta.12"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "25.0.2",
+    "@rollup/plugin-json": "6.0.0",
+    "@rollup/plugin-node-resolve": "15.1.0",
+    "@types/jest": "29.5.3",
+    "@types/node": "20.4.1",
+    "node-sass": "9.0.0",
+    "postcss": "8.4.25",
+    "rollup": "3.26.2",
+    "rollup-globals-regex": "^0.0.3",
+    "rollup-plugin-alias": "^2.2.0",
+    "rollup-plugin-angular": "^0.5.2",
+    "rollup-plugin-delete": "2.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "2.2.4",
+    "rollup-plugin-polyfill": "4.1.0",
+    "rollup-plugin-postcss": "4.0.2",
+    "rollup-plugin-typescript2": "0.35.0",
+    "ts-jest": "29.1.1",
+    "typescript": "5.1.6"
+  },
+  "peerDependencies": {
+    "postcss": "8.4.25"
+  },
+  "keywords": [],
+  "author": "",
+  "volta": {
+    "node": "18.16.1"
+  }
+}
